@@ -1,0 +1,173 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 14/07/2018 11:04
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-monitor-1:before { content: "\f100"; }
+.flaticon-delete:before { content: "\f101"; }
+.flaticon-doc:before { content: "\f102"; }
+.flaticon-ribbon:before { content: "\f103"; }
+.flaticon-license:before { content: "\f104"; }
+.flaticon-check-1:before { content: "\f105"; }
+.flaticon-disc:before { content: "\f106"; }
+.flaticon-internet:before { content: "\f107"; }
+.flaticon-desktop-computer:before { content: "\f108"; }
+.flaticon-desktop:before { content: "\f109"; }
+.flaticon-triangle-shape:before { content: "\f10a"; }
+.flaticon-photo-frame:before { content: "\f10b"; }
+.flaticon-ellipse:before { content: "\f10c"; }
+.flaticon-imac-1:before { content: "\f10d"; }
+.flaticon-iphone:before { content: "\f10e"; }
+.flaticon-pc:before { content: "\f10f"; }
+.flaticon-phone:before { content: "\f110"; }
+.flaticon-snow:before { content: "\f111"; }
+.flaticon-sync:before { content: "\f112"; }
+.flaticon-game-console:before { content: "\f113"; }
+.flaticon-menu:before { content: "\f114"; }
+.flaticon-slim-right:before { content: "\f115"; }
+.flaticon-clock:before { content: "\f116"; }
+.flaticon-check:before { content: "\f117"; }
+.flaticon-next:before { content: "\f118"; }
+.flaticon-tablet:before { content: "\f119"; }
+.flaticon-bug:before { content: "\f11a"; }
+.flaticon-null-2:before { content: "\f11b"; }
+.flaticon-smartphone-1:before { content: "\f11c"; }
+.flaticon-smartphone:before { content: "\f11d"; }
+.flaticon-battery-status:before { content: "\f11e"; }
+.flaticon-broken:before { content: "\f11f"; }
+.flaticon-search:before { content: "\f120"; }
+.flaticon-heat:before { content: "\f121"; }
+.flaticon-computer:before { content: "\f122"; }
+.flaticon-arrow:before { content: "\f123"; }
+.flaticon-calendar-1:before { content: "\f124"; }
+.flaticon-operating-system:before { content: "\f125"; }
+.flaticon-cart:before { content: "\f126"; }
+.flaticon-null-1:before { content: "\f127"; }
+.flaticon-null:before { content: "\f128"; }
+.flaticon-environment:before { content: "\f129"; }
+.flaticon-gear:before { content: "\f12a"; }
+.flaticon-furniture-and-household:before { content: "\f12b"; }
+.flaticon-cycle-1:before { content: "\f12c"; }
+.flaticon-cycle:before { content: "\f12d"; }
+.flaticon-laptop:before { content: "\f12e"; }
+.flaticon-global:before { content: "\f12f"; }
+.flaticon-pin:before { content: "\f130"; }
+.flaticon-mission:before { content: "\f131"; }
+.flaticon-monitor:before { content: "\f132"; }
+.flaticon-calendar:before { content: "\f133"; }
+.flaticon-support:before { content: "\f134"; }
+.flaticon-deal:before { content: "\f135"; }
+.flaticon-quote:before { content: "\f136"; }
+.flaticon-imac:before { content: "\f137"; }
+.flaticon-gem:before { content: "\f138"; }
+.flaticon-wrench-1:before { content: "\f139"; }
+.flaticon-review:before { content: "\f13a"; }
+.flaticon-transfer:before { content: "\f13b"; }
+.flaticon-maintenance:before { content: "\f13c"; }
+.flaticon-phone-record:before { content: "\f13d"; }
+.flaticon-hand-1:before { content: "\f13e"; }
+.flaticon-hand:before { content: "\f13f"; }
+.flaticon-warehouse:before { content: "\f140"; }
+.flaticon-wrench:before { content: "\f141"; }
+.flaticon-mail:before { content: "\f142"; }
+    
+    $font-Flaticon-monitor-1: "\f100";
+    $font-Flaticon-delete: "\f101";
+    $font-Flaticon-doc: "\f102";
+    $font-Flaticon-ribbon: "\f103";
+    $font-Flaticon-license: "\f104";
+    $font-Flaticon-check-1: "\f105";
+    $font-Flaticon-disc: "\f106";
+    $font-Flaticon-internet: "\f107";
+    $font-Flaticon-desktop-computer: "\f108";
+    $font-Flaticon-desktop: "\f109";
+    $font-Flaticon-triangle-shape: "\f10a";
+    $font-Flaticon-photo-frame: "\f10b";
+    $font-Flaticon-ellipse: "\f10c";
+    $font-Flaticon-imac-1: "\f10d";
+    $font-Flaticon-iphone: "\f10e";
+    $font-Flaticon-pc: "\f10f";
+    $font-Flaticon-phone: "\f110";
+    $font-Flaticon-snow: "\f111";
+    $font-Flaticon-sync: "\f112";
+    $font-Flaticon-game-console: "\f113";
+    $font-Flaticon-menu: "\f114";
+    $font-Flaticon-slim-right: "\f115";
+    $font-Flaticon-clock: "\f116";
+    $font-Flaticon-check: "\f117";
+    $font-Flaticon-next: "\f118";
+    $font-Flaticon-tablet: "\f119";
+    $font-Flaticon-bug: "\f11a";
+    $font-Flaticon-null-2: "\f11b";
+    $font-Flaticon-smartphone-1: "\f11c";
+    $font-Flaticon-smartphone: "\f11d";
+    $font-Flaticon-battery-status: "\f11e";
+    $font-Flaticon-broken: "\f11f";
+    $font-Flaticon-search: "\f120";
+    $font-Flaticon-heat: "\f121";
+    $font-Flaticon-computer: "\f122";
+    $font-Flaticon-arrow: "\f123";
+    $font-Flaticon-calendar-1: "\f124";
+    $font-Flaticon-operating-system: "\f125";
+    $font-Flaticon-cart: "\f126";
+    $font-Flaticon-null-1: "\f127";
+    $font-Flaticon-null: "\f128";
+    $font-Flaticon-environment: "\f129";
+    $font-Flaticon-gear: "\f12a";
+    $font-Flaticon-furniture-and-household: "\f12b";
+    $font-Flaticon-cycle-1: "\f12c";
+    $font-Flaticon-cycle: "\f12d";
+    $font-Flaticon-laptop: "\f12e";
+    $font-Flaticon-global: "\f12f";
+    $font-Flaticon-pin: "\f130";
+    $font-Flaticon-mission: "\f131";
+    $font-Flaticon-monitor: "\f132";
+    $font-Flaticon-calendar: "\f133";
+    $font-Flaticon-support: "\f134";
+    $font-Flaticon-deal: "\f135";
+    $font-Flaticon-quote: "\f136";
+    $font-Flaticon-imac: "\f137";
+    $font-Flaticon-gem: "\f138";
+    $font-Flaticon-wrench-1: "\f139";
+    $font-Flaticon-review: "\f13a";
+    $font-Flaticon-transfer: "\f13b";
+    $font-Flaticon-maintenance: "\f13c";
+    $font-Flaticon-phone-record: "\f13d";
+    $font-Flaticon-hand-1: "\f13e";
+    $font-Flaticon-hand: "\f13f";
+    $font-Flaticon-warehouse: "\f140";
+    $font-Flaticon-wrench: "\f141";
+    $font-Flaticon-mail: "\f142";
